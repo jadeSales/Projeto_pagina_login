@@ -1,0 +1,77 @@
+body{
+    background-image: url(imagens/imagem-fundo.png);
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo-principal{
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 0 0 20px;
+    color: #408EAE;
+    font-size: 40px;
+}
+
+.formLogin{
+    width: 370px;    
+    margin: 100px 140px 0;
+    font-family: sans-serif;  
+    box-shadow: 0 0 1em rgb(122, 122, 122);
+    color: #408EAE; 
+    border-radius: 10px;   
+}
+
+.formLogin fieldset{
+    border: none;
+}
+
+.formLogin legend{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 0.527);
+}
+
+.formLogin label{
+    margin-top: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#email, #password, .botao{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #C1CDE7;
+    border-radius: 5px;
+}
+
+#email{
+    margin-bottom: 15px;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 11px;    
+}
+
+input::-moz-placeholder{
+    font-size: 11px;
+}
+
+.botao{
+    margin: 30px 0 20px 0;
+    background-color:#FEB041;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .6s;
+}
+
+.botao:hover{
+    background-color:#45AAB7;
+}
+
+
+
