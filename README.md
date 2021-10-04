@@ -6,7 +6,6 @@ Esse projeto é uma página de login desenvolvido utilizando HTML e CSS. Alguns 
 
 * Tags semânticas 
 * Tags meta para otimização de SEO: "author", "description", "keywords"
-* Formulário
 * Organização da entrada de dados no formulário: tag fieldset, tag legend   
 
 
@@ -17,4 +16,5 @@ Esse projeto é uma página de login desenvolvido utilizando HTML e CSS. Alguns 
 * Pseudo-classe :hover
 * Seletores 
 
+![tela_login](https://user-images.githubusercontent.com/88989391/135928464-55d3ae4a-1ee1-4a7d-bb90-54c16688f91c.gif)
 
